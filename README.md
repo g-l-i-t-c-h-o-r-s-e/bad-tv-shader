@@ -11,7 +11,7 @@ It Simulates a bad TV via horizontal distortion and vertical roll.
 • Run `npm install -g timecut` so we can capture the canvas.                                                                         
 • Use whichever IP is shown after running: `http-server` and then in a seperate command prompt, run: `timecut "http://192.168.56.1:8080" --executable-path "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --no-headless --canvas-capture-mode immediate:png --viewport=1080,720 --duration=12 --output=CANVASOUTPUT.mp4`                                                         
 • Apply FFmpeg filters to make it look more like an CRT Monitor, and join original audio: `ffmpeg -i CANVASOUTPUT.mp4 -i originalaudio.webm -lavfi "[0:v]vignette,vignette,format=gbrp,lenscorrection=k1=0.2:k2=0.2[out1];[out1]split[a][b];[b]boxblur=26,format=gbrp[b];[b][a] blend=all_mode=screen:shortest=1[out2]" -map "[out2]" -map 1:a -f mp4 -q:v 0 -pix_fmt yuv420p -t 12 Final.mp4`, Also `-t 12` should be set to how long `--duration=12` was or however long you wanted the output file to be, to avoid audio duration glitch. [Borrowed From Here:](http://oioiiooixiii.blogspot.com/2019/04/ffmpeg-crt-screen-effect.html)                                                                                                  
-• PROFIT: https://streamable.com/yo70s <333
+• PROFIT: https://streamable.com/yo70s <3 https://streamable.com/smfar
 
 ## Original Demo <3
 
