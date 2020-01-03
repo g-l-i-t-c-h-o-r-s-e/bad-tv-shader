@@ -5,7 +5,7 @@ If you see this Felix, could u pls give us an option to natively record the outp
 It Simulates a bad TV via horizontal distortion and vertical roll. 
 
 ## How To:
-• (More to come, including full automation?)    
+• (TRY THE AHK SCRIPT OUT, or skip and do manually below).    
 
 • Install [NodeJS](https://nodejs.org/en/)                                                                             
 • In the `index.html` change the line `video.src = 'res/fits.mp4';` to whatever file you want.                                           
