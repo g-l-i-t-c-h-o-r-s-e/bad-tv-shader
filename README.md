@@ -3,7 +3,7 @@
 I had to modify it slightly to remove the stat FPS canvas so we can capture whats going on! <3                                        
 It Simulates a bad TV via horizontal distortion and vertical roll. 
 
-## How To
+## How To:
 • Install [NodeJS](https://nodejs.org/en/)                                                                             
 • In the `index.html` change the line `video.src = 'res/fits.mp4';` to whatever file you want.                                           
 • Open command prompt and run: `npm install http-server -g`, cd to the "example" folder                                                                                  
