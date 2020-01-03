@@ -1,4 +1,3 @@
-fileread, oWo, C:\Users\aches\Documents\bad-tv-shader-master\example\index.html
 #NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
 ; #Warn  ; Enable warnings to assist with detecting common errors.
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
@@ -18,8 +17,8 @@ SplitPath, InputVideo, name, dir, ext, name_no_ext,
 MovedFile := "res/" . name
 InputVideo2 := "video.src = '" . MovedFile . "';"
 
-
-fileread, oWo, C:\Users\aches\Documents\bad-tv-shader-master\example\source.html
+Sauce := A_ScriptDir . "\source.html"
+fileread, oWo, %Sauce%
 oWo := StrReplace(oWo, "video.src =", InputVideo2)
 
 
