@@ -37,7 +37,7 @@ View demo for full usage details.
 ## Credits
 
 Uses [Ashima WebGL Noise](https://github.com/ashima/webgl-noise), [three.js](https://github.com/mrdoob/three.js/)                                  
-All Credit goes to the Original Author/Owner [Felix Turner](https://github.com/felixturner/bad-tv-shader) I claim no rights so this and only want to share this awesome tool with others who cannot program and want to achieve this marvelous effect with the built-in example page <3 
+All Credit goes to the Original Author/Owner [Felix Turner](https://github.com/felixturner/bad-tv-shader) I claim no rights so this and only want to share this awesome tool with others who cannot program and want to achieve this marvelous effect with the built-in example page, as well as capture it for their viewing pleasure :> 
 
 ## License
 
