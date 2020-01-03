@@ -1,6 +1,7 @@
 # Bad TV Shader for Three.js - Modified for Canvas Capturing
 
-I had to modify it slightly to remove the stat FPS canvas so we can capture whats going on! <3                                        
+I had to modify it slightly to remove the stat FPS canvas so we can capture whats going on! <3                                       
+If you see this Felix, could u pls give us an option to natively record the output ;-;                                                                    
 It Simulates a bad TV via horizontal distortion and vertical roll. 
 
 ## How To:
