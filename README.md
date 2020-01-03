@@ -4,9 +4,9 @@ I had to modify it slightly to remove the stat FPS canvas so we can capture what
 It Simulates a bad TV via horizontal distortion and vertical roll. 
 
 ## How To
-• [NodeJS](https://nodejs.org/en/)                                                                             
-• Install `npm install http-server -g`, and run `http-server` in the example folder with index.html inside.                               
-• Install `npm install -g timecut` so we can capture the canvas.                                                                         
+• Install [NodeJS](https://nodejs.org/en/)                                                                             
+• Open command prompt and run: `npm install http-server -g`, and run `http-server` in the example folder with index.html inside.                               
+• Run `npm install -g timecut` so we can capture the canvas.                                                                         
 • Use whichever IP is shown after running: `http-server` and then in a seperate command prompt, run: `timecut "http://192.168.56.1:8080" --executable-path "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --no-headless --canvas-capture-mode immediate:png --viewport=1080,720 --duration=12 --output=CANVASOUTPUT.mp4`
 
 ## Original Demo <3
