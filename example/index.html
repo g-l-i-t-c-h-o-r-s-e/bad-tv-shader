@@ -36,7 +36,6 @@
 
 	<script src='lib/three.min.js'></script>
 	<script src='lib/dat.gui.min.js'></script>
-	<script src='lib/stats.min.js'></script>
 	<script src='lib/postprocessing/EffectComposer.js'></script>
 	<script src='lib/postprocessing/RenderPass.js'></script>
 	<script src='lib/postprocessing/ShaderPass.js'></script>
@@ -97,15 +96,9 @@
 			plane.z = 0;
 			plane.scale.x = plane.scale.y = 1.45;
 
-			//add stats
-			stats = new Stats();
-			stats.domElement.style.position = 'absolute';
-			stats.domElement.style.top = '0px';
-			container.appendChild(stats.domElement);
-
 			//init renderer
 			renderer = new THREE.WebGLRenderer();
-			renderer.setSize(800, 600);
+			renderer.setSize(1080, 720);
 			document.body.appendChild(renderer.domElement);
 
 			//POST PROCESSING
@@ -269,7 +262,6 @@
 
 			requestAnimationFrame(animate);
 			composer.render(0.1);
-			stats.update();
 		}
 
 		function onResize() {
